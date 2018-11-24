@@ -22,4 +22,4 @@ WORKDIR /app
 RUN pip install -r requirements.txt
 
 # Execute
-CMD ["python", "scraper.py"]
+CMD ["python", "kcpr_scraper/scraper.py"]
